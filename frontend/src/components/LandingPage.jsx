@@ -40,41 +40,41 @@ const LandingPage = () => {
 
       {/* Section: Entre e tenha acesso a */}
       <div className="flex items-center justify-center mb-5 gap-2">
+        {/* ⤹ : linha vertical à direita descendo, curva ao final para a esquerda e ponta pra baixo */}
         <svg
-          width="22"
-          height="30"
-          viewBox="0 0 24 32"
+          width="26"
+          height="34"
+          viewBox="0 0 26 34"
           fill="none"
           stroke="currentColor"
-          strokeWidth="2.2"
+          strokeWidth="2.4"
           strokeLinecap="round"
           strokeLinejoin="round"
           className="text-white shrink-0"
           aria-hidden="true"
         >
-          {/* ⤹ : curved arc going from top-right down to bottom-left */}
-          <path d="M19 3 C19 16, 14 24, 6 28" />
-          <polyline points="10,22 6,28 3,21" />
+          <path d="M20 4 L20 14 C20 23, 16 29, 8 30" />
+          <polyline points="12,26 8,30 11,34" />
         </svg>
         <h2 className="text-white font-extrabold uppercase text-[15px] sm:text-[17px] tracking-wide text-center">
           Entre e tenha acesso a
         </h2>
+        {/* ⤸ : espelho do anterior */}
         <svg
-          width="22"
-          height="30"
-          viewBox="0 0 24 32"
+          width="26"
+          height="34"
+          viewBox="0 0 26 34"
           fill="none"
           stroke="currentColor"
-          strokeWidth="2.2"
+          strokeWidth="2.4"
           strokeLinecap="round"
           strokeLinejoin="round"
           className="text-white shrink-0"
           aria-hidden="true"
           style={{ transform: "scaleX(-1)" }}
         >
-          {/* ⤸ : mirror of the left one */}
-          <path d="M19 3 C19 16, 14 24, 6 28" />
-          <polyline points="10,22 6,28 3,21" />
+          <path d="M20 4 L20 14 C20 23, 16 29, 8 30" />
+          <polyline points="12,26 8,30 11,34" />
         </svg>
       </div>
 
