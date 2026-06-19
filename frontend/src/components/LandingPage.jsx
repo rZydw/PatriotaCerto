@@ -25,10 +25,10 @@ const LandingPage = () => {
       <div className="br-border mb-8">
         <div className="br-border-inner">
           <div className="br-border-content">
-            <div className="bg-black aspect-square w-full overflow-hidden">
+            <div className="bg-black w-full overflow-hidden" style={{ aspectRatio: "16 / 9" }}>
               <video
                 src="https://customer-assets.emergentagent.com/job_mobile-design-16/artifacts/wlt4bsgy_Copy%20site.mp4"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 controls
                 playsInline
                 preload="metadata"
