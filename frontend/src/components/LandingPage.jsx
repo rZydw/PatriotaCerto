@@ -40,40 +40,37 @@ const LandingPage = () => {
 
       {/* Section: Entre e tenha acesso a */}
       <div className="flex items-center justify-center mb-5 gap-2">
-        <svg
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="text-white shrink-0"
+        <span
+          className="text-white leading-none shrink-0 inline-flex items-center justify-center"
+          style={{
+            fontFamily: "'Noto Sans Symbols 2', 'Segoe UI Symbol', sans-serif",
+            fontSize: 28,
+            lineHeight: 1,
+            width: 28,
+            height: 28,
+            fontVariantEmoji: "text",
+          }}
           aria-hidden="true"
         >
-          <path d="M20 4 C20 12, 14 18, 6 18" />
-          <polyline points="11,13 6,18 11,23" />
-        </svg>
+          {"\u2939"}
+        </span>
         <h2 className="text-white font-extrabold uppercase text-[15px] sm:text-[17px] tracking-wide text-center">
           Entre e tenha acesso a
         </h2>
-        <svg
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="text-white shrink-0"
+        <span
+          className="text-white leading-none shrink-0 inline-flex items-center justify-center"
+          style={{
+            fontFamily: "'Noto Sans Symbols 2', 'Segoe UI Symbol', sans-serif",
+            fontSize: 28,
+            lineHeight: 1,
+            width: 28,
+            height: 28,
+            fontVariantEmoji: "text",
+          }}
           aria-hidden="true"
-          style={{ transform: "scaleX(-1)" }}
         >
-          <path d="M20 4 C20 12, 14 18, 6 18" />
-          <polyline points="11,13 6,18 11,23" />
-        </svg>
+          {"\u2938"}
+        </span>
       </div>
 
       {/* Feature Cards */}
