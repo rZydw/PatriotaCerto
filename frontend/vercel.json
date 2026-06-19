@@ -1,0 +1,5 @@
+{
+  "buildCommand": "yarn build -- --legacy-peer-deps",
+  "outputDirectory": "build",
+  "rootDirectory": "frontend"
+}
