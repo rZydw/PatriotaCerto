@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700;1,800&display=swap');
+
+.App {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Brazil-flag dual gradient border (yellow outer + green inner) */
+.br-border {
+  position: relative;
+  border-radius: 28px;
+  padding: 5px;
+  background: linear-gradient(180deg, #FFDF00 0%, #FFD500 100%);
+  box-shadow: 0 0 0 0 transparent;
+}
+.br-border-inner {
+  border-radius: 24px;
+  padding: 4px;
+  background: linear-gradient(180deg, #00A85A 0%, #009A3F 100%);
+}
+.br-border-content {
+  border-radius: 20px;
+  background: #0a0a0a;
+  overflow: hidden;
+}
+
+/* Card border (smaller radius) */
+.br-card {
+  border-radius: 22px;
+  padding: 3px;
+  background: linear-gradient(180deg, #FFDF00 0%, #FFCB00 100%);
+}
+.br-card-inner {
+  border-radius: 20px;
+  padding: 3px;
+  background: linear-gradient(180deg, #00A85A 0%, #009A3F 100%);
+}
+.br-card-content {
+  border-radius: 18px;
+  background: #0a0a0a;
+  padding: 18px 16px;
+  text-align: center;
+}
+
+/* CTA button border */
+.cta-border {
+  border-radius: 60px;
+  padding: 4px;
+  background: linear-gradient(180deg, #FFDF00 0%, #FFCB00 100%);
+  box-shadow: 0 0 30px rgba(255, 223, 0, 0.25);
+}
+.cta-border-inner {
+  border-radius: 56px;
+  padding: 4px;
+  background: linear-gradient(180deg, #00A85A 0%, #009A3F 100%);
+}
+.cta-content {
+  border-radius: 52px;
+  background: #0a0a0a;
+  padding: 18px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-glow {
+  text-shadow:
+    0 0 14px rgba(255, 255, 255, 0.85),
+    0 0 28px rgba(255, 255, 255, 0.55),
+    0 0 48px rgba(255, 255, 255, 0.3);
+}
+
+/* Testimonial pill */
+.testimonial-border {
+  border-radius: 90px;
+  padding: 1.5px;
+  background: rgba(255,255,255,0.55);
+}
+.testimonial-content {
+  border-radius: 90px;
+  background: #0a0a0a;
+  padding: 14px 18px 16px 18px;
+}
+
+/* Decorative parentheses */
+.deco-paren {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  transform: scale(1.6, 2.2);
+  margin: 0 14px;
+  opacity: 0.95;
+}
+
+/* Subtle pulse on CTA */
+@keyframes ctaPulse {
+  0%, 100% { box-shadow: 0 0 30px rgba(255, 223, 0, 0.25); }
+  50% { box-shadow: 0 0 50px rgba(255, 223, 0, 0.45); }
+}
+.cta-border {
+  animation: ctaPulse 2.6s ease-in-out infinite;
+}
+
+.cta-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+.cta-link:hover {
+  transform: scale(1.015);
+}
+
+/* Arrow bounce */
+@keyframes arrowBounce {
+  0%, 100% { transform: translateY(0); opacity: 0.7; }
+  50% { transform: translateY(6px); opacity: 1; }
+}
+.arrow-bounce {
+  display: inline-block;
+  animation: arrowBounce 1.6s ease-in-out infinite;
+}
+.arrow-bounce:nth-child(2) { animation-delay: 0.15s; }
+.arrow-bounce:nth-child(3) { animation-delay: 0.3s; }
+
+/* Star color */
+.star-yellow { color: #F6C84C; fill: #F6C84C; }
