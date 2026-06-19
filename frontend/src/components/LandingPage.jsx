@@ -40,41 +40,41 @@ const LandingPage = () => {
 
       {/* Section: Entre e tenha acesso a */}
       <div className="flex items-center justify-center mb-5 gap-2">
-        {/* ⤹ : linha vertical à direita descendo, curva ao final para a esquerda e ponta pra baixo */}
+        {/* ⤹ : parêntese alto "(" com pequena seta para baixo no final */}
         <svg
-          width="26"
-          height="34"
-          viewBox="0 0 26 34"
+          width="20"
+          height="44"
+          viewBox="0 0 20 44"
           fill="none"
           stroke="currentColor"
-          strokeWidth="2.4"
+          strokeWidth="1.8"
           strokeLinecap="round"
           strokeLinejoin="round"
           className="text-white shrink-0"
           aria-hidden="true"
         >
-          <path d="M20 4 L20 14 C20 23, 16 29, 8 30" />
-          <polyline points="12,26 8,30 11,34" />
+          <path d="M15 3 C5 13, 5 30, 9 39" />
+          <polyline points="4,34 9,40 13,33" />
         </svg>
         <h2 className="text-white font-extrabold uppercase text-[15px] sm:text-[17px] tracking-wide text-center">
           Entre e tenha acesso a
         </h2>
         {/* ⤸ : espelho do anterior */}
         <svg
-          width="26"
-          height="34"
-          viewBox="0 0 26 34"
+          width="20"
+          height="44"
+          viewBox="0 0 20 44"
           fill="none"
           stroke="currentColor"
-          strokeWidth="2.4"
+          strokeWidth="1.8"
           strokeLinecap="round"
           strokeLinejoin="round"
           className="text-white shrink-0"
           aria-hidden="true"
           style={{ transform: "scaleX(-1)" }}
         >
-          <path d="M20 4 L20 14 C20 23, 16 29, 8 30" />
-          <polyline points="12,26 8,30 11,34" />
+          <path d="M15 3 C5 13, 5 30, 9 39" />
+          <polyline points="4,34 9,40 13,33" />
         </svg>
       </div>
 
