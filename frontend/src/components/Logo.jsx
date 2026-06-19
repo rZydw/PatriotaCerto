@@ -34,7 +34,7 @@ const Logo = () => {
         <div
           className="leading-none"
           style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Poppins', sans-serif",
             fontStyle: "italic",
             fontWeight: 600,
             fontSize: 22,

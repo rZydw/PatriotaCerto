@@ -28,7 +28,7 @@ const LandingPage = () => {
             <div className="bg-white aspect-square w-full flex items-center justify-center">
               <span
                 className="text-black text-2xl tracking-wide"
-                style={{ fontFamily: "'Playfair Display', serif" }}
+                style={{ fontFamily: "'Poppins', sans-serif" }}
               >
                 VIDEO
               </span>

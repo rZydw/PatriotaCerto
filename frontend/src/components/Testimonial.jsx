@@ -25,7 +25,7 @@ const Testimonial = ({ name, avatar, stars = 5, text }) => {
             <div
               className="text-white text-[18px] leading-none"
               style={{
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Poppins', sans-serif",
                 fontWeight: 500,
               }}
             >
