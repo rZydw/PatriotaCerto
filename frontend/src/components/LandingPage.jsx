@@ -40,11 +40,40 @@ const LandingPage = () => {
 
       {/* Section: Entre e tenha acesso a */}
       <div className="flex items-center justify-center mb-5 gap-2">
-        <span className="text-white text-2xl sm:text-3xl leading-none" aria-hidden="true">⤹</span>
+        <svg
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="text-white shrink-0"
+          aria-hidden="true"
+        >
+          <path d="M20 4 C20 12, 14 18, 6 18" />
+          <polyline points="11,13 6,18 11,23" />
+        </svg>
         <h2 className="text-white font-extrabold uppercase text-[15px] sm:text-[17px] tracking-wide text-center">
           Entre e tenha acesso a
         </h2>
-        <span className="text-white text-2xl sm:text-3xl leading-none" aria-hidden="true">⤸</span>
+        <svg
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="text-white shrink-0"
+          aria-hidden="true"
+          style={{ transform: "scaleX(-1)" }}
+        >
+          <path d="M20 4 C20 12, 14 18, 6 18" />
+          <polyline points="11,13 6,18 11,23" />
+        </svg>
       </div>
 
       {/* Feature Cards */}
