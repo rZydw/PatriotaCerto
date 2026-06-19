@@ -25,25 +25,26 @@ const LandingPage = () => {
       <div className="br-border mb-8">
         <div className="br-border-inner">
           <div className="br-border-content">
-            <div className="bg-white aspect-square w-full flex items-center justify-center">
-              <span
-                className="text-black text-2xl tracking-wide"
-                style={{ fontFamily: "'Poppins', sans-serif" }}
-              >
-                VIDEO
-              </span>
+            <div className="bg-black aspect-square w-full overflow-hidden">
+              <video
+                src="https://customer-assets.emergentagent.com/job_mobile-design-16/artifacts/wlt4bsgy_Copy%20site.mp4"
+                className="w-full h-full object-cover"
+                controls
+                playsInline
+                preload="metadata"
+              />
             </div>
           </div>
         </div>
       </div>
 
       {/* Section: Entre e tenha acesso a */}
-      <div className="flex items-center justify-center mb-5">
-        <span className="deco-paren">(</span>
+      <div className="flex items-center justify-center mb-5 gap-2">
+        <span className="text-white text-2xl sm:text-3xl leading-none" aria-hidden="true">⤹</span>
         <h2 className="text-white font-extrabold uppercase text-[15px] sm:text-[17px] tracking-wide text-center">
           Entre e tenha acesso a
         </h2>
-        <span className="deco-paren">)</span>
+        <span className="text-white text-2xl sm:text-3xl leading-none" aria-hidden="true">⤸</span>
       </div>
 
       {/* Feature Cards */}
