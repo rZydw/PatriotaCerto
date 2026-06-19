@@ -118,19 +118,19 @@ const LandingPage = () => {
       <div className="flex flex-col gap-5 mb-10">
         <Testimonial
           name="Fran"
-          avatar="https://images.unsplash.com/photo-1560707854-fb9a10eeaace?crop=entropy&cs=srgb&fm=jpg&w=200&q=80"
+          avatar="https://customer-assets.emergentagent.com/job_mobile-design-16/artifacts/vsu8au14_photo_2026-01-30_10-14-38.jpg"
           stars={4}
           text={<>Comunidade excelente, avante Brasil <span role="img" aria-label="Brasil">🇧🇷</span></>}
         />
         <Testimonial
           name="Roberto"
-          avatar="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=srgb&fm=jpg&w=200&q=80"
+          avatar="https://customer-assets.emergentagent.com/job_mobile-design-16/artifacts/47yrx8i8_photo_2024-10-15_19-55-52.jpg"
           stars={5}
           text="Finalmente um portal com informação de qualidade, recomendo!"
         />
         <Testimonial
           name="Villanassi"
-          avatar="https://images.unsplash.com/photo-1535643302794-19c3804b874b?crop=entropy&cs=srgb&fm=jpg&w=200&q=80"
+          avatar="https://customer-assets.emergentagent.com/job_mobile-design-16/artifacts/w6lc4i1p_photo_2026-02-27_20-12-14.jpg"
           stars={5}
           text={
             <>
