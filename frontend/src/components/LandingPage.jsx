@@ -40,37 +40,42 @@ const LandingPage = () => {
 
       {/* Section: Entre e tenha acesso a */}
       <div className="flex items-center justify-center mb-5 gap-2">
-        <span
-          className="text-white leading-none shrink-0 inline-flex items-center justify-center"
-          style={{
-            fontFamily: "'Noto Sans Symbols 2', 'Segoe UI Symbol', sans-serif",
-            fontSize: 28,
-            lineHeight: 1,
-            width: 28,
-            height: 28,
-            fontVariantEmoji: "text",
-          }}
+        <svg
+          width="22"
+          height="30"
+          viewBox="0 0 24 32"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="text-white shrink-0"
           aria-hidden="true"
         >
-          {"\u2939"}
-        </span>
+          {/* ⤹ : curved arc going from top-right down to bottom-left */}
+          <path d="M19 3 C19 16, 14 24, 6 28" />
+          <polyline points="10,22 6,28 3,21" />
+        </svg>
         <h2 className="text-white font-extrabold uppercase text-[15px] sm:text-[17px] tracking-wide text-center">
           Entre e tenha acesso a
         </h2>
-        <span
-          className="text-white leading-none shrink-0 inline-flex items-center justify-center"
-          style={{
-            fontFamily: "'Noto Sans Symbols 2', 'Segoe UI Symbol', sans-serif",
-            fontSize: 28,
-            lineHeight: 1,
-            width: 28,
-            height: 28,
-            fontVariantEmoji: "text",
-          }}
+        <svg
+          width="22"
+          height="30"
+          viewBox="0 0 24 32"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="text-white shrink-0"
           aria-hidden="true"
+          style={{ transform: "scaleX(-1)" }}
         >
-          {"\u2938"}
-        </span>
+          {/* ⤸ : mirror of the left one */}
+          <path d="M19 3 C19 16, 14 24, 6 28" />
+          <polyline points="10,22 6,28 3,21" />
+        </svg>
       </div>
 
       {/* Feature Cards */}
