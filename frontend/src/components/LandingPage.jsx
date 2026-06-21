@@ -4,7 +4,7 @@ import FeatureCard from "./FeatureCard";
 import Testimonial from "./Testimonial";
 import { Check, AlertTriangle, Globe, ShieldCheck, BadgeCheck } from "lucide-react";
 
-const KIWIFY_URL = "https://pay.kiwify.com.br/8Ij01SL";
+const KIWIFY_URL = "https://syncpay.link/NybSk9";
 
 const LandingPage = () => {
   return (
@@ -127,7 +127,7 @@ const LandingPage = () => {
                 Participe Aqui
               </div>
               <div className="text-white/90 text-[10px] sm:text-[11px] tracking-wider uppercase mt-2 font-semibold">
-                *por um valor simbólico de R$ 9,90
+                *por um valor simbólico de R$ 11,90
               </div>
             </div>
           </div>
