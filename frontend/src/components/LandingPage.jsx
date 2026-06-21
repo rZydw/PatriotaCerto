@@ -4,7 +4,7 @@ import FeatureCard from "./FeatureCard";
 import Testimonial from "./Testimonial";
 import { Check, AlertTriangle, Globe, ShieldCheck, BadgeCheck } from "lucide-react";
 
-const KIWIFY_URL = "https://pay.kiwify.com.br/mdZbYG5";
+const KIWIFY_URL = "https://pay.kiwify.com.br/8Ij01SL";
 
 const LandingPage = () => {
   return (
