@@ -4,7 +4,7 @@ import FeatureCard from "./FeatureCard";
 import Testimonial from "./Testimonial";
 import { Check, AlertTriangle, Globe, ShieldCheck, BadgeCheck } from "lucide-react";
 
-const KIWIFY_URL = "https://syncpay.link/NybSk9";
+const KIWIFY_URL = "https://link.syncpayments.com.br/D3h05s";
 
 const LandingPage = () => {
   return (
